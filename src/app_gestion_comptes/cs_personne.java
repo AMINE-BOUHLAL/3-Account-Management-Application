@@ -1,13 +1,13 @@
 package app_gestion_comptes;
 
 public class cs_personne {
-    public String nom;
-    public int lage;
+    public String name;
+    public int age;
 
     // constricteur=bnay
     public cs_personne(String nom, int lage) {
-        this.nom = nom;
-        this.lage = lage;
+        this.name = nom;
+        this.age = lage;
     }
 
     public cs_personne() {
@@ -17,8 +17,8 @@ public class cs_personne {
     @Override
     public String toString() {
         return "cs_personne{" +
-                "nom='" + nom + '\'' +
-                ", lage=" + lage +
+                "nom='" + name + '\'' +
+                ", lage=" + age +
                 '}';
     }
 }
